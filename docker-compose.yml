@@ -1,5 +1,5 @@
  web:
-    build: .
+    image: satyaprakashyadav/tomcatapp:tomcat
     ports:
     - "8088:8088"
     links:
